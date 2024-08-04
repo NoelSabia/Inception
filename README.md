@@ -100,6 +100,25 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: mysecretpassword
 ```
+
+### Commands inside a Docker Compose
+|Command|Explanation|
+|-|-|
+|version|Specifies the version of the Docker Compose file format to use.|
+|services|Defines the containers (services) that make up your application.|
+|build|Configures build options for creating Docker images from a Dockerfile.|
+|image|Specifies the Docker image to use for the service.|
+|container_name|Sets a custom name for the container.|
+|ports|Maps container ports to host ports to enable external access.|
+|volumes|Defines mounts for data persistence and sharing between containers.|
+|environment|Sets environment variables inside the container.|
+|networks|Configures custom networks for inter-container communication.|
+|depends_on|Specifies dependencies between services to control startup order.|
+|command|Overrides the default command specified in the Docker image.|
+|entrypoint|Overrides the default entrypoint of the Docker image.|
+|restart|Configures restart policies for the containers.|
+|healthcheck|Defines health checks to ensure the container is running properly.|
+
 ### Commands for a Docker Compose
 |Command|Explanation|
 |-|-|

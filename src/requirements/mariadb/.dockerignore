@@ -1,0 +1,47 @@
+# .git
+# .gitignore
+
+# .env
+# .env.*
+
+# *.log
+
+# *.local
+# *.dev
+# *.test
+
+# *.tmp
+# *.swp
+# *.bak
+# *.old
+# *.orig
+# *.DS_Store
+# Thumbs.db
+
+# dist/
+# build/
+# public/
+
+# .vscode/
+# .idea/
+# *.sublime-project
+# *.sublime-workspace
+# *.code-workspace
+
+# *.md
+# *.markdown
+# *.sh
+# *.bat
+# *.exe
+# *.app
+# *.dmg
+# *.iso
+# *.img
+# *.pkg
+# *.deb
+# *.rpm
+# *.tar
+# *.gz
+# *.zip
+# *.rar
+# *.7z
